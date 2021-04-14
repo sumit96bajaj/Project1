@@ -1,0 +1,138 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+#container{
+  width:1050px;
+  /* border: 1px solid grey; */
+  margin: 0 auto;
+}
+h1 a{
+  font-size: 50px;
+  font-weight: 100;
+  color:black;
+  text-decoration: none;
+}
+#brand{
+  float: left;
+}
+#searchbox{
+  float:right;
+  background: #2E7DC0;
+  width: 400px;
+  height: 70px;
+  padding: 20px 20px 0 20px;
+  margin-top: 5px;
+}
+#header{
+  height: 100px;
+  padding: 10px 0;
+}
+.text{
+  float: left;
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+  color:black;
+  background: white ;
+}
+.submit{
+  float: right;
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+  background: #2E7DC0;
+  font-size: 15px;
+}
+.clear{
+  clear: both;
+}
+ul{
+  list-style: none;
+}
+#menu{
+  height:70px;
+  background: #2E7DC0;
+}
+#menu ul li{
+  float: left;
+  padding: 0 30px;
+  border-right: 1px solid #947DA1;
+  margin-top: 20px;
+
+}
+#menu ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: black;
+  transition: font-size 0.3s ease;
+}
+#menu ul li a:hover,#menu ul li a.active {
+  font-size: 21px;
+  color:#5E2DA2;
+  font-weight:bold;
+}
+#menu ul li:last-child{
+  border-right: none;
+}
+#introduction{
+   background: #2E7DC0;
+   padding: 20px;
+   margin: 15px 0;
+}
+#introduction h3{
+  font-size: 35px;
+  color: black;
+  font-weight: normal;
+}
+#introduction p{
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+}
+.sidebar{
+  height: 500px;
+  width: 470px;
+  border: 2px solid #DEEFBF;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+#leftsidebar{
+  float: left;
+}
+#rightsidebar{
+  float: right;
+}
+.sidebar h3{
+  color:black;
+  font-size: 30px;
+}
+.sidebar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+text-decoration:none;
+color:##5E2DA2;
+font-size: 23px;
+font-weight:bold;
+transition: font-size 0.3s ease;
+}
+#leftsidebar ul li{
+  padding: 0 0 4px 7px;
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAk0lEQVQ4T8XUMQ5BQRAG4O+VJAoJjcohlC7gfJR6R3ABiTNouIQDCKF7u89sRmy9+2V25t/tJK8u2fNXcIwt9jiXbhapcIbbG9rg1IdGwOf5NY41NAoOoi1gFW0Fi+gHXOKASTCXC0xxxwqXn4HBwl7beyfe2sNifFrAahajYGqw57hmPr0Rdpmfw1dJiPZwEE0HHwSZHhVXj03HAAAAAElFTkSuQmCC)
+}
+.sidebar ul{
+  padding-top: 8px;
+}
+#rightsidebar ul li{
+  padding: 0 0 8px 7px;
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAABKUlEQVQ4T63TvyvFURjH8ZeQlMFgsMiklMlmM5CSGBQWMUjdDMq/YbBhEGWQsFCK/MhosymlpKQsBqWU/Oqpc0vXvd+416nT6ZzznPfz4/OcKv8zWjGPXNU/8NpwihYcVwrswAmacY/eSoCdOEITbtGDm3KBXThAI64T7C7KVw6wG/towGWkiYe8Fn8F9mEX9bhA7B+/CxvAmMv4xExai4k/hG3U4Rz9eCo0DNhASiHu1jGF9wLDUWygBmcI+HMxr/mU57CQDLYwjre0n8QqqnGIYbyU6t/vNcxhKZVgDxFVRLuYzqJ2Y3jN+gyFokxgLUUTCkbjxthE3OWjLskspvJIqldtehUOpvHxm29aqm0GsYMVzGYo/8NHVh+24+o3URX24V/fZNp/AZ5YMwSTcyxFAAAAAElFTkSuQmCC);
+}
+.footer{
+  height: 50px;
+  background: #2E7DC0;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
